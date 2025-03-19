@@ -1,0 +1,53 @@
+ /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text for contrast */
+    font-size: 18px; /* Base font size increased */
+}
+
+.container {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2em; /* Larger label text */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 12px;
+    width: 320px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em; /* Input text size */
+}
+
+#strengthMessage,
+#nameCounter,
+#emailCounter {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1em; /* Message and counter text size */
+}
+
+.weak {
+    color: red;
+}
+
+.medium {
+    color: orange;
+}
+
+.strong {
+    color: green;
+}
